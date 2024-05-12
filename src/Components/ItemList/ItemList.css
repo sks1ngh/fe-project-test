@@ -1,0 +1,66 @@
+.item-list {
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.controls select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.item-card {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.item-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.item-card a:hover {
+  text-decoration: underline;
+}
+
+.delete-button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.delete-button:hover {
+  background-color: #e04128;
+}
+
+@media screen and (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  .controls select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
